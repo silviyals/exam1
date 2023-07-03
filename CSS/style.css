@@ -1,0 +1,21 @@
+#icon {
+    margin-right: 25px;
+    font-size: large;
+}
+.navbar {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+#first {
+    text-align: center;
+    margin-top: 100px;
+}
+.lead {
+    margin-top: 30px;
+    text-align: justify;
+    color: black;
+    font-size: 1.5rem;
+}
+.paragraph {
+    color: gray;
+}
