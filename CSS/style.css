@@ -7,8 +7,9 @@
     font-size: large;
 }
 #first {
-    text-align: center;
+    
     margin-top: 100px;
+    border-bottom: 1px solid gray;
 }
 .lead {
     margin-top: 30px;
@@ -18,4 +19,22 @@
 }
 .paragraph {
     color: gray;
+}
+#first>#button-1 {
+    width: 100px;
+    display: flex;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    
+}
+#first>.featurette-heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#second {
+    
+    margin-top: 100px;
+    border-bottom: 1px solid gray;
+}
+#second>#button-1 {
+    margin-bottom: 30px;
 }
