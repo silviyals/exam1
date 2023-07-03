@@ -74,4 +74,14 @@
 #th-1 {
     border-right: 1px solid gray;
 }
+#right-part {
+    border-right: 1px solid gray;
+    
 
+}
+#main {
+    text-align: center;
+}
+#bottom-right {
+    border-bottom: 1px solid gray;
+}
