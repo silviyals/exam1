@@ -58,4 +58,20 @@
     text-align: center;
     margin: 70px;
 }
+.table {
+    text-align: center;
+    font-size: large;
+}
+#icon-3 {
+    font-size: 2rem;
+}
+#par {
+    margin: 25px;
+}
+#parag {
+    margin-left: 10px;
+}
+#th-1 {
+    border-right: 1px solid gray;
+}
 
