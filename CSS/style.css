@@ -76,10 +76,17 @@
     border-right: 1px solid gray;
     border-bottom: 1px solid gray;
 }
+#rights-part {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
 #main {
     text-align: center;
 }
 #other-part {
+    border-right: 1px solid gray;
+}
+#others-part {
     border-right: 1px solid gray;
 }
 #another-part {
@@ -97,4 +104,113 @@
 }
 #last-btn {
     margin-left: 1100px;
+}
+
+@media (max-width:1450px) {
+    #image-first {
+        width: 500px;
+        height: 450px;
+    }
+    #photo-3 {
+        width: 500px;
+        height: 450px;
+    }
+    #pic-2 {
+        width: 500px;
+        height: 450px;
+    }
+    
+}
+
+
+@media (max-width:1400px) {
+    #bi-bi-pic {
+        margin-top: 30px;
+    }
+    #image-first {
+        width: 500px;
+        height: 450px;
+    }
+    #photo-3 {
+        width: 500px;
+        height: 450px;
+    }
+    #last-btn {
+        margin-left: 900px;
+    }
+    #pic-2 {
+        width: 450px;
+        height: 350px;
+    }
+    #another-part {
+        border-right: 1px solid gray;
+     }
+     #rights-part {
+        border-right: none;
+        border-bottom: 1px solid gray;
+     }
+     #other-part {
+        border-right: none;
+        border-bottom: 1px solid gray;
+     }
+}
+@media (max-width:1350px) {
+    #rights-part {
+        border-right: none;
+        border-bottom: 1px solid gray;
+     }
+     #another-part {
+        border-right: 1px solid gray;
+     }
+}
+@media (max-width:1320px) {
+    #biu-pic {
+        margin-top: 30px;
+    }
+    #image-first {
+        width: 450px;
+        height: 350px;
+    }
+    #photo-3 {
+        width: 450px;
+        height: 350px;
+    }
+    #pic-2 {
+        width: 450px;
+        height: 350px;
+    }
+    #last-btn {
+        margin-left: 800px;
+    }
+}
+@media (max-width:1000px) {
+    #pic-12 {
+        margin-bottom: 30px;
+        margin-left: 70px;
+    }
+    #biu-pic {
+        margin-left: 70px;
+    }
+    #bi-bi-pic {
+        margin-left: 70px;
+    }
+    #last-btn {
+        margin-left: 400px;
+    } 
+    #right-part {
+        border-right: none;
+    }
+    #another-part {
+        border-right: none;
+    }
+    #others-part {
+        border-right: none;
+        border-bottom: 1px solid gray;
+    }
+}
+@media (max-width:540px) {
+    #last-btn {
+        margin-left: 300px;
+    }
+    
 }
